@@ -1,0 +1,9 @@
+DIM EQU 15
+.MODEL small
+.STACK
+.data
+.CODE 
+.STARTUP
+MOV AX, DIM
+.EXIT
+END
