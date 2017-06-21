@@ -7,7 +7,7 @@ opa db ?
 opb db ?
 ris db ?
 .code
-.startur 
+.startup
 
 mov ax,0
 mov ah,01h
@@ -18,7 +18,7 @@ cicloa:
     int 21h
     sub al , '0' 
     dec cx
-    shl al,cl ;
+    shl al,cl
     or bl,al   
     cmp cx,0
     jg cicloa
